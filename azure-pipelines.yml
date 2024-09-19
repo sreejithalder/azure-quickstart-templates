@@ -16,6 +16,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'spn_new_project'
     subscriptionId: 'e763bfe0-dc54-4a8d-abfc-3a1fb69b3b23'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMPipelinesLAMP-rg'
