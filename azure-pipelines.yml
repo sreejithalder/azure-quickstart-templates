@@ -20,7 +20,7 @@ steps:
     subscriptionId: 'e763bfe0-dc54-4a8d-abfc-3a1fb69b3b23'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMPipelinesLAMP-rg'
-    location: 'centralindia'
+    location: 'Central India'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
     csmParametersFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.parameters.json'
